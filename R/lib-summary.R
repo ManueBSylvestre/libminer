@@ -10,7 +10,8 @@
 
 #' @return a data.frame of R packages by library
 
-#' @export #somethingthat makes the function available to your user
+#' @export
+#' #something that makes the function available to your user
 
 #'
 
