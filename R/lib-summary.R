@@ -1,5 +1,4 @@
 #' Provide Number of R Packages by Library
-
 #'
 
 #' Provide the number of R package by library in
@@ -11,9 +10,7 @@
 #' @return a data.frame of R packages by library
 
 #' @export
-#' #something that makes the function available to your user
 
-#'
 
 #' @examples
 #' lib_summary
