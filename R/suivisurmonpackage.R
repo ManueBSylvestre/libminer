@@ -149,10 +149,61 @@ use_readme_md() #selon google - ok cela me crée un readme
 ##JE M'AJUSTE POUR LE DÉBUT DU DAY 2
 load_all()
 
-use_readme_rmd() #Ok oui ca me sort le readme
+use_readme_rmd() #Ok oui ca me sort le readme - mais je dois faire knit je crois
 build_readme()
 
+check()
 
+
+# build_readme()
+#
+# check()
+
+
+#j'ai une erreur de description file
+#Code sur stack overflow:
+
+# I am creating two vectors for each successful and failed description files
+load_all()
+
+successful_files <- c()
+error_vector <- c()
+
+# Specify the directory you have received from .libPaths()
+dir_path <- "C:/Users/beaudrysylvestrem/Desktop/libminer"
+
+
+
+desc_files <-
+  list.files(
+    path = dir_path,
+    pattern = "DESCRIPTION",
+    recursive = TRUE,
+    full.names = TRUE
+  )
+
+# Loop through the files
+for (file in desc_files) {
+  tryCatch({
+    # Attempting to read the file
+    desc <- read.dcf(file)
+
+    # If successful, add to successful_files vector and show a console message
+    successful_files <- c(successful_files, file)
+    cli::cli_alert_success(paste0("Successfully loaded ", file))
+  }, error = function(e) {
+    # If an error occurs, add to error_vector and show a console message
+    error_vector <- c(error_vector, file)
+    cli::cli_alert_danger(paste0("Failed to loaded ", file))
+  })
+}
+
+
+
+
+
+##JOUR 2
+use_testthat()
 
 
 
