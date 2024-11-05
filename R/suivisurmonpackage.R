@@ -165,8 +165,9 @@ check()
 
 # I am creating two vectors for each successful and failed description files
 load_all()
-check()
 
+
+check()
 
 # successful_files <- c()
 # error_vector <- c()
