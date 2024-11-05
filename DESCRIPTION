@@ -1,10 +1,11 @@
 Package: libminer
-Title: Explore your R libraries
+Title: Explore Your R Libraries
 Version: 0.0.0.9000
 Authors@R: 
     person("Manuelle", "Beaudry-Sylvestre", , "manuelle.beaudry-sylvestre@dfo-mpo.gc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Provides functions for learning about your R libraries, and the packages you have installed.
+Description: Provides functions for learning about your R libraries, and the 
+packages you have installed.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

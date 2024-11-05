@@ -149,6 +149,8 @@ use_readme_md() #selon google - ok cela me crée un readme
 ##JE M'AJUSTE POUR LE DÉBUT DU DAY 2
 load_all()
 
+use_readme_rmd() #Ok oui ca me sort le readme
+build_readme()
 
 
 
