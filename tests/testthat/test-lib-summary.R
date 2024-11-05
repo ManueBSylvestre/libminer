@@ -1,4 +1,4 @@
-test_that("lib_summary returns expected results", {
+test_that("lib_summary returns expected results with defaults", {
     result <- lib_summary()
 
     expect_s3_class(result, "data.frame")

@@ -6,6 +6,9 @@
 \usage{
 lib_summary(sizes = FALSE)
 }
+\arguments{
+\item{sizes}{Should sizes of libraries be calculated. Default is FALSE}
+}
 \value{
 a data.frame of R packages by library
 }
