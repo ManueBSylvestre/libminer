@@ -168,8 +168,8 @@ load_all()
 check()
 
 
-successful_files <- c()
-error_vector <- c()
+# successful_files <- c()
+# error_vector <- c()
 
 # # Specify the directory you have received from .libPaths()
 # dir_path <- "C:/Users/beaudrysylvestrem/Desktop/libminer"
