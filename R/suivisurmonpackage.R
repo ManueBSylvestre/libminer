@@ -164,6 +164,8 @@ check()
 #Code sur stack overflow:
 
 # I am creating two vectors for each successful and failed description files
+getwd()
+
 load_all()
 
 

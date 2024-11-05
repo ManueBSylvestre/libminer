@@ -4,7 +4,7 @@
 \name{libminer-package}
 \alias{libminer}
 \alias{libminer-package}
-\title{libminer: Explore your R libraries}
+\title{libminer: Explore Your R Libraries}
 \description{
 Provides functions for learning about your R libraries, and the packages you have installed.
 }

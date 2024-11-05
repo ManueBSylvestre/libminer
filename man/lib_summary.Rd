@@ -15,5 +15,4 @@ a data.frame
 }
 \examples{
 lib_summary
-
 }
