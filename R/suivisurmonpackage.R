@@ -171,47 +171,47 @@ check()
 successful_files <- c()
 error_vector <- c()
 
-# Specify the directory you have received from .libPaths()
-dir_path <- "C:/Users/beaudrysylvestrem/Desktop/libminer"
-
-
-
-desc_files <-
-  list.files(
-    path = dir_path,
-    pattern = "DESCRIPTION",
-    recursive = TRUE,
-    full.names = TRUE
-  )
-
-# Loop through the files
-for (file in desc_files) {
-  tryCatch({
-    # Attempting to read the file
-    desc <- read.dcf(file)
-
-    # If successful, add to successful_files vector and show a console message
-    successful_files <- c(successful_files, file)
-    cli::cli_alert_success(paste0("Successfully loaded ", file))
-  }, error = function(e) {
-    # If an error occurs, add to error_vector and show a console message
-    error_vector <- c(error_vector, file)
-    cli::cli_alert_danger(paste0("Failed to loaded ", file))
-  })
-}
-
-
-
-
-
-##JOUR 2
-use_testthat()
-
-
-
-
-
-
+# # Specify the directory you have received from .libPaths()
+# dir_path <- "C:/Users/beaudrysylvestrem/Desktop/libminer"
+#
+#
+#
+# desc_files <-
+#   list.files(
+#     path = dir_path,
+#     pattern = "DESCRIPTION",
+#     recursive = TRUE,
+#     full.names = TRUE
+#   )
+#
+# # Loop through the files
+# for (file in desc_files) {
+#   tryCatch({
+#     # Attempting to read the file
+#     desc <- read.dcf(file)
+#
+#     # If successful, add to successful_files vector and show a console message
+#     successful_files <- c(successful_files, file)
+#     cli::cli_alert_success(paste0("Successfully loaded ", file))
+#   }, error = function(e) {
+#     # If an error occurs, add to error_vector and show a console message
+#     error_vector <- c(error_vector, file)
+#     cli::cli_alert_danger(paste0("Failed to loaded ", file))
+#   })
+# }
+#
+#
+#
+#
+#
+# ##JOUR 2
+# use_testthat()
+#
+#
+#
+#
+#
+#
 
 
 
