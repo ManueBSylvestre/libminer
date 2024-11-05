@@ -4,7 +4,7 @@
 \alias{lib_summary}
 \title{Provide Number of R Packages by Library}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
 }
 \value{
 a data.frame of R packages by library
