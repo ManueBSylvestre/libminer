@@ -44,7 +44,6 @@ lib_summary <- function(sizes = FALSE) {
 #' @return a data.frame of all packages installed on your system
 
 #' @export
-
 lib <- function() {
 
   pkgs <- utils::installed.packages()
@@ -65,7 +64,6 @@ lib <- function() {
 #' @return df with a lib_size column
 
 #' @noRd
-
 calculate_sizes <- function(df) {
 
   df$lib_size <- map_dbl(
