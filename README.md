@@ -30,10 +30,18 @@ use the `lib_summary()` function:
 ``` r
 library(libminer)
 lib_summary()
-#>                                                                               Library
-#> 1                                                  C:/Program Files/R/R-4.4.1/library
-#> 2                          C:/Users/beaudrysylvestrem/AppData/Local/R/win-library/4.4
-#> 3 C:/Users/beaudrysylvestrem/AppData/Local/Temp/1/Rtmpw9UV3q/temp_libpath45cc5bfa6e00
+#>                                                                              Library
+#> 1                                                 C:/Program Files/R/R-4.4.1/library
+#> 2                         C:/Users/beaudrysylvestrem/AppData/Local/R/win-library/4.4
+#> 3 C:/Users/beaudrysylvestrem/AppData/Local/Temp/1/RtmpGKFFNe/temp_libpath868c4ec1236
+#>   n_packages
+#> 1         29
+#> 2        150
+#> 3          1
+#>                                                                              Library
+#> 1                                                 C:/Program Files/R/R-4.4.1/library
+#> 2                         C:/Users/beaudrysylvestrem/AppData/Local/R/win-library/4.4
+#> 3 C:/Users/beaudrysylvestrem/AppData/Local/Temp/1/RtmpGKFFNe/temp_libpath868c4ec1236
 #>   n_packages
 #> 1         29
 #> 2        150
