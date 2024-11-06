@@ -29,8 +29,9 @@ You can install the development version of libminer from [GitHub](https://GitHub
 
 ```r
 # install.packages("devtools")
-devtools::install_GitHub("boshek/libminer")
-```
+devtools::install_GitHub("ManueBSylvestre/libminer")
+``` 
+
 
 ## Example usage
 
@@ -44,5 +45,5 @@ lib_summary()
 and you can also use the `lib` function:
 
 ```{r}
-lib()
+lib() |> head()
 ```
