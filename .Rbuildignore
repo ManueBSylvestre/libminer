@@ -5,3 +5,7 @@
 ^suivi2\.R$
 ^suivisurmonpackage\.R$
 ^\.github$
+^suivi3\.R$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
