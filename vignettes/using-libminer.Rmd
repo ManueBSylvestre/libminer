@@ -23,6 +23,12 @@ lib_summary()
 
 ```
 
+You can also use `lib`
+```{r}
+lib()
 
+```
+
+This concludes our vignette.
 
 
